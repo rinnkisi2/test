@@ -1,0 +1,50 @@
+.sagscroller{
+	width: 100%;
+	height:300px;
+	overflow:hidden;
+	position:relative;
+/*	border:5px solid black;*/
+}
+.sagscroller ul{
+	position:absolute;
+	margin:0;
+	padding:0;
+	background:white;
+	list-style:none;
+	width: 100%;
+}
+.sagscroller ul li{
+	display:block;
+}
+.sagscroller ul li .rsslabel{
+	margin-top:5px;
+	font-size:12px;
+	clear: both;
+}
+/* 文字リスト縦スクロールデモ */
+div#mysagscroller{
+	float:left;
+}
+div#mysagscroller ul li{
+	color:000000;
+	padding:5px;
+	margin-bottom:5px;
+}
+div#mysagscroller ul li:first-letter{
+	font-size:24px;
+	background:#666666;
+	color:#ffffff;
+	padding:0 2px;
+	margin-right:2px;
+}
+/* 画像縦スクロールデモ */
+div#mysagscroller2{
+	width: 100%;
+	height:600px;
+	border:5px solid #C0C0C0;
+	float:right;
+}
+div#mysagscroller2 ul li img{
+	border-width:0;
+	display:block;
+}
